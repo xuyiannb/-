@@ -1,0 +1,15 @@
+a = int(input('输入IQ'))
+if a<=69:
+    print('智力缺陷')
+elif a<=79:
+    print('智力不足')
+elif a<=89:
+    print('智力中下')
+elif a<=109:
+    print('智力中等')
+elif a<=119:
+    print('智力中上')
+elif a<=139:
+    print('智力优秀')
+else:
+    print('天才')
